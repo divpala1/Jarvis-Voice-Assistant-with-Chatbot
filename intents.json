@@ -1,0 +1,19 @@
+{"intents": [
+  {"tag": "greeting",
+    "patterns": ["hi", "how are you", "is anyone there?", "hello", "good day", "whats up", "hey", "greetings"],
+    "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"]
+  },
+  {"tag": "goodbye",
+    "patterns": ["cya", "see you later", "goodbye", "i am Leaving", "have a Good day", "bye", "see ya"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+  },
+  {"tag": "age",
+    "patterns": ["How old", "What is your age?", "How old are you?", "Age?"],
+    "responses": ["My owner Divyajeet is 21 years old.", "21 years!"]
+  },
+  {"tag": "name",
+    "patterns": ["What is your name?", "What should I call you?", "What's your name?", "Who are you?"],
+    "responses": ["You can call me Jarvis!", "I'm Jarvis! Nice to meet you!", "I'm Jarvis. Your personal assistant!"]
+  }
+]
+}
